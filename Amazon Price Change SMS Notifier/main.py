@@ -27,8 +27,9 @@ def main():
 def clean_price(raw):
   return float(raw.replace('$', ''))
 
-account_sid ='AC03bb93eb4fbdc226da8ec697726cd551'
-auth_token = '5466abcb7ae96142db31bda38ecaca90'
+# twilio account details have been removed for security purposes, but normally they go below :)
+account_sid =''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 
